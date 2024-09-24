@@ -8,8 +8,8 @@ import fillCheck from "./fill-check.svg";
 import burger from "./burger.svg";
 import line12x from "./line1-2x.svg";
 import line22x from "./line2-2x.svg";
-import line1rotate from "./line1rotate.svg";
-import line2rotate from "./line2rotate.svg";
+import line1rotate from "./line1rotating.svg";
+import line2rotate from "./line2rotating.svg";
 import close from "./close.svg";
 
 export {
