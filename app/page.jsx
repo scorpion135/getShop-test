@@ -14,7 +14,13 @@ import { navLinks } from "./../shared/constants/index";
 
 export default function Home() {
   const [isFixed, setIsFixed] = React.useState(false);
-  const [width, setWidth] = React.useState(window.innerWidth);
+  let windowInner;
+
+  if (typeof window !== "undefined") {
+    windowInner = window.innerWidth;
+  }
+
+  const [width, setWidth] = React.useState(windowInner);
 
   console.log(width);
 
