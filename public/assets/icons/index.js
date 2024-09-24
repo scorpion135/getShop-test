@@ -10,7 +10,7 @@ import line12x from "./line1-2x.svg";
 import line22x from "./line2-2x.svg";
 import line1rotate from "./line1rotate.svg";
 import line2rotate from "./line2rotate.svg";
-import close from './close.svg'
+import close from "./close.svg";
 
 export {
   bullet,
